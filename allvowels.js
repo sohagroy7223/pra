@@ -14,9 +14,14 @@
 
 // or******OR******////
 
-let sentence = "Education is a powerful tool";
-let vowels = ["a", "e", "i", "o", "u"];
+// let sentence = "Education is a powerful tool";
+// let vowels = ["a", "e", "i", "o", "u"];
 
+// let hasAllVowels = vowels.every((vowel) => sentence.includes(vowel));
+
+// console.log(hasAllVowels);
+
+const sentence = "amar sonar bangla education";
+vowels = ["a", "e", "i", "o", "u"];
 let hasAllVowels = vowels.every((vowel) => sentence.includes(vowel));
-
 console.log(hasAllVowels);
